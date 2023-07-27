@@ -19,6 +19,7 @@ Run the Django server and execute the HTML files
 ## CODE
 ```
 map.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,162 +27,158 @@ map.html
 </head>
 <body>
 <h1 align="center">
-<font color="red"><b>Ariyalur</b></font>
+<font color="red"><b>Kanchipuram</b></font>
 </h1>
 <h3 align="center">
 <font color="blue"><b>sudharsanakumar (23007374)</b></font>
 </h3>
 <center>
-<img src="/static/Images/map5.png" usemap="#MyCity" height="450" width="1100">
+<img src="/static/Images/nut.png" usemap="#MyCity" height="450" width="1100">
 <map name="MyCity">
-<area shape="circle" coords="190,50,20" href="/static/html/ghs.html" title="Govt. Higher Secondary School">
-<area shape="rectangle" coords="230,30,260,60" href="/static/html/rto.html" title="RTO Office">
-<area shape="circle" coords="400,350,50" href="/static/html/vk.html" title="Washerman's Lake">
-<area shape="circle" coords="400,200,75" href="/static/html/bus.html" title="Hi-Tech Bus Stand">
-<area shape="rectangle" coords="490,150,870,320" href="/static/html/park.html" title="Eco-Park">
+<area shape="circle" coords="190,50,20" href="/static/html/vpt.html" title="Varadharaja Permual Temple">
+<area shape="circle" coords="230,30,260,30" href="/static/html/gpf.html" title="Green Poultry Farm">
+<area shape="circle" coords="400,350,50" href="/static/html/av.html" title="Athi vardhar temple">
+<area shape="circle" coords="400,200,75" href="/static/html/kp.html" title="kanchi patasala">
+<area shape="rectangle" coords="490,150,870,320" href="/static/html/st.html" title="ST info tech">
 </map>
 </center>
 </body>
 </html>
 
-bus.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Bus Stand</title>
-</head>
-<body bgcolor="cyan">
-<h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>Hi-Tech Bus Stand</b></font>
-</h3>
-<hr size="3" color="red">
-<p align="justify">
-<font face="Courier New" size="5">
-<b>
-Ariyalur district is an administrative district, one of the 38 districts in the 
-state of Tamil Nadu in India. The district headquarters is located at Ariyalur. 
-The district encompasses an area of 1,949.31 km². Gangaikonda Cholapuram, 
-built by King Rajendra Cholan of Chola Empire, is a UNESCO World Heritage site 
-situated in this district. The district is also known for its rich prehistoric 
-fossils. Many fossils of gigantic molluscs and jawed fishes, at least one 
-fossilized dinosaur egg, and several fragmentary fossils of sauropod and theropod 
-dinosaurs have been discovered here. An on-site museum is being set up at 
-Keelapazhur to preserve and conserve fossils. Ariyalur is noted for its cement
- industries and Jayankondam has huge reserves of lignite.
-</b>
-</font>
-</p>
-</body>
-</html>
+st.html
 
-park.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Eco-Park</title>
+<title>ST INFO TECH</title>
 </head>
 <body bgcolor="yellow">
 <h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
+<font color="red"><b>Kanchipuar - Temple City</b></font>
 </h1>
 <h3 align="center">
-<font color="blue"><b>Eco-Park</b></font>
+<font color="blue"><b>ST INFO TECH</b></font>
 </h3>
 <hr size="3" color="red">
 <p align="justify">
 <font face="Tahoma" size="5">
-A very nice park near Ariyalur bus stand. It is located surrounding the Chetty Lake. 
-Very superb calm place in ariyalur. Best for walking. Nice playing place for kids.
-Well maintained with jogging track. Source of ground water.
-Good place play with children.  In Banyan Tree lot of parrot stay like house. 
-Good sound and Air. Lake view park looks awesome.
-Very nice place at Ariyalur.
-Simple and relax with play area.
+Infotech is the underlying information technology that helps with the transmission of data across digital channels.
+Info tech allows data to be collected, stored, and analyzed. This allows digital-based activities to run smoothly
+in our connected world. Such activities dependent on information technology include using smart devices, social media,
+searching Google, watching Netflix, playing eSports, or checking your bank balance.
 </font>
 </p>
 </body>
 </html>
 
-rto.html
+kp.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>RTO Office</title>
+<title>kanchi patasala</title>
 </head>
 <body bgcolor="pink">
 <h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
+<font color="red"><b>Kanchipuram - Temple City</b></font>
 </h1>
 <h3 align="center">
-<font color="blue"><b>RTO Office</b></font>
+<font color="blue"><b>kanchi patasala</b></font>
 </h3>
 <hr size="3" color="red">
 <p align="justify">
 <font face="Arial" size="5">
 <b>
-RTO office or the Regional Transport Office is a government body specifically established to oversee all transport-related operations in the country. RTOs are located throughout the country in each state and union territory. RTOs are responsible for enforcing the rules as laid down by the Motor Vehicle Act of 1988.
-The department also maintains a database of all the vehicles operating in the country as well as issues licenses for drivers. Besides, the RTO office also collects road taxes, supervises pollution checks, and ensures the enforcement of all road transportation rules. If you own or drive a vehicle in India, you will need to visit the RTO to get your vehicle registered, obtain a driver’s license or renew your driver’s license, etc.
-RTOs are also responsible for improving road and vehicle safety, especially to avoid accidents and other road fatalities.
+The Patasala has about 30 Vidhyarthees (Students) who are in various stages of Vedic education.
+The Trust provides the Patasala a building, seven acres of paddy fields, and a Prayer Hall as well
+as provides for the tuition and boarding expenses of the Vidhyarthees.
 </b>
 </font>
 </p>
 </body>
 </html>
 
-ghs.html
+av.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Govt. High. Sec. School</title>
+<title>Athivardar Temple</title>
+</head>
+<body bgcolor="yellow">
+<h1 align="center">
+<font color="red"><b>Kanchipuram - Temple City</b></font>
+</h1>
+<h3 align="center">
+<font color="blue"><b>Athivardar Temple</b></font>
+</h3>
+<hr size="3" color="red">
+<p align="justify">
+<font face="Tahoma" size="5">
+Atthi Varadharaja Perumal (Atthi Varadar), the 10 feet deity image, is made of the Atthi or the fig tree, and is stored
+in an underground chamber inside the temple tank which is called the Anantha Sarovaram/ Anantha Saras. It is
+brought out to worship for 48 days after every 40 years. It is worshipped in the Vasantha Mantapam, which located
+in the south-west corner of the temple.The Aththi Varadar is worshipped in sleeping posture (Kidantha Thirukkolam or Sayana Kolam) in the first 24 days, 
+followed by standing position (Nindra Thirukkolam) in the next 24 days.
+</font>
+</p>
+</body>
+</html>
+
+gpf.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Green Poultry Farm</title>
 </head>
 <body bgcolor="lime">
 <h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
+<font color="red"><b>Kanchipuram - Temple city</b></font>
 </h1>
 <h3 align="center">
-<font color="blue"><b>Government Higher Secondary School</b></font>
+<font color="blue"><b>Green Poultry Farm</b></font>
 </h3>
 <hr size="3" color="red">
 <p align="justify">
 <font face="Georgia" size="5">
-The main objectives of Ariyalur Government Higher Secondary School are 
+The main objectives of Kanchipuram Green Poultry Farm are 
 <ul>
-<li>To impart proper and qualified training to teachers and give them an attractive salary and incentives so that they are not tempted to quit and look elsewhere for jobs.</li>
-<li>To provide financial aids and grants wisely and judiciously.</li>
-<li>To Frame of syllabus and curriculum.</li>
-<li>To set aims and objectives of education.</li>
+<li>Green poultry means that the system of eco-friendly farming.</li>
+<li>This is the sustainable production of poultry.</li>
+<li>It reduces the environmental effect without any kind of chemicals.</li>
+<li>It will prevent to spread of diseases of poultry chicks and also help to spread diseases outside. This is a fully cost-effective farming policy.</li>
 </ul>
 </font>
 </p>
 </body>
 </html>
 
-vk.html
+vpt.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Govt. High. Sec. School</title>
+<title>varadharaja perumal temple</title>
 </head>
-<body bgcolor="lime">
+<body bgcolor="cyan">
 <h1 align="center">
-<font color="red"><b>Ariyalur - Cement City</b></font>
+<font color="red"><b>Kanchipuram - Temple city</b></font>
 </h1>
 <h3 align="center">
-<font color="blue"><b>Government Higher Secondary School</b></font>
+<font color="blue"><b>UNESCO SPOT</b></font>
 </h3>
 <hr size="3" color="red">
 <p align="justify">
-<font face="Georgia" size="5">
-The main objectives of Ariyalur Government Higher Secondary School are 
-<ul>
-<li>To impart proper and qualified training to teachers and give them an attractive salary and incentives so that they are not tempted to quit and look elsewhere for jobs.</li>
-<li>To provide financial aids and grants wisely and judiciously.</li>
-<li>To Frame of syllabus and curriculum.</li>
-<li>To set aims and objectives of education.</li>
-</ul>
+<font face="Courier New" size="5">
+<b>
+Kanchipuram is a city in the  Indian state of Tamilnadu. It is located in the Tondaimandalam region. Kanchipuram is known
+for its temples and its architecture, 1000 pillared halls and its famous silk sarees. Kanchipuram serves as a important 
+tourist place in India. The city was located near palar river. This city ruled under by different kingdoms like Pallavas,
+Medieval Cholas, Later cholas, and by later Pandyas. The varadharajar temple holds a very important spot in kanchipuram.
+This temple is devoted for god vishnu a hinduism god and for this temple everyday 1000 of people come and visit this
+temple and get blessings from god vishnu
+</b>
 </font>
 </p>
 </body>
@@ -189,20 +186,20 @@ The main objectives of Ariyalur Government Higher Secondary School are
 ```
 
 ## OUTPUT
-![Output](./screenshots/out1.png)
+![Output](./screenshots/nut.png)
 
-![Output](./screenshots/out2.png)
+![Output](./screenshots/win1.png)
 
-![Output](./screenshots/out3.png)
+![Output](./screenshots/win2.png)
 
-![Output](./screenshots/out4.png)
+![Output](./screenshots/win3.png)
 
-![Output](./screenshots/out5.png)
+![Output](./screenshots/win4.png)
 
-![Output](./screenshots/out6.png)
+![Output](./screenshots/win5.png)
 
 ## HTML VALIDATOR
-![HTML VALIDATOR](./screenshots/valid.png)
+![HTML VALIDATOR](./screenshots/valid1.png)
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
